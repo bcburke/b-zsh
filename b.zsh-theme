@@ -21,9 +21,3 @@ ${(l.(($COLUMNS-${#${(%):-x%m:%~ %n %l}}-1))..—.)}\
 `git_prompt_info``git_prompt_status`%(?:%002F:%001F)%#%f '
 
 RPROMPT='%(?..%001F%? <%f) %003F%*%f'
-
-export LS_COLORS="rs=0:di=01;36:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:\
-cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;31:*.go=0;32:*.py=0;95:"
-
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
