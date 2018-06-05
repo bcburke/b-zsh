@@ -1,6 +1,6 @@
 #multi line prompt for oh-my-zsh
 #shows directory, user name, terminal number, time, and git status
-#works well under solarized themes
+#works on solarized themes
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%003F%.%f on %009F"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%000F "
