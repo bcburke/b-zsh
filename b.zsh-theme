@@ -17,10 +17,10 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%1F\u2047 "
 PROMPT='
 %2F${STY:-%m}:%4F%~ %10F\
 ${(l.$COLUMNS-${#${(%):-${STY:-%m}:%~  \
-%n ${SSH_CONNECTION:+$ }%l }}..—.)}\
- %(!.%1F.%6F)%n %2F${SSH_CONNECTION:+$ }%l
+%n %l }}..—.)}\
+ %(!.%1F.%6F)%n %2F%l
 `git_prompt_info``git_prompt_status`%(?:%2F:%1F)%#%f '
 
 PS2='%(?:%2F:%1F)%_>%f '
 
-RPROMPT='%(?..%1F%? <%f) %3F%*%f'
+RPROMPT='%(?..%1F%? <%f) %3F%*%2F${SSH_CONNECTION:+ $}%f'
